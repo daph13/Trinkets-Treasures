@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,900');
+
+body{
+	font-family: 'Poppins', sans-serif;
+	background:url('../images/flower_background(3).jpg');
+}
+
+
+table{
+	width: 700px;
+	background-color: #fff;
+    background-color: rgba(255,255,255,0.5);
+}
+
+
+#remove{
+	font-family: 'Poppins', sans-serif;
+	margin-left: 30px;
+	background-color: #680A26;
+	color: white;
+	padding: 10px;
+	border: none;
+}
+
+#remove:hover{
+	box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+h1{
+	text-align:center;
+	color: #372128;
+}
+
+.cart-wrapper{
+	width:800px;
+	margin: 0 auto;
+}
+
+.product-img{
+	/*padding-left: 45px; */
+	width:100px;
+	height:165px;
+	
+}
+
+.table-header{
+	text-align:center;
+	
+}
+
+button a{
+	font-family: 'Poppins', sans-serif;
+	text-decoration:none;
+	color:#581845;
+	font-size: 14px;
+	
+	
+}
+
+.button-link{
+	padding:10px;
+	background-color: #F5D551;
+	border: none;
+	display: inline-block;
+	margin: 0px 15px;
+	width: 200px;
+	text-align:center;
+	
+}
+
+.button-link:hover{
+	background-color:#F5A951;  
+}

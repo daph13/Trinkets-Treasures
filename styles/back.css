@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,900');
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+    display: inline-block; 
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+button a{
+	font-family: 'Poppins', sans-serif;
+	text-decoration:none;
+	color:#581845;
+	font-size: 14px;
+	
+	
+}
+
+.button-link{
+	padding:10px;
+	background-color: #F5D551;
+	border: none;
+	display: inline-block;
+	margin: 0px 15px;
+	width: 200px;
+	text-align:center;
+	
+}
+
+.button-link:hover{
+	background-color:#F5A951;  
+}

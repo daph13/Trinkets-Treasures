@@ -1,0 +1,61 @@
+.logo_image {
+	height: 100px;
+	width:195px;
+}
+
+.super_container {
+	background:url('../images/flower_background(10).jpg');
+	
+}
+
+.category{
+	margin-top:100px;
+	background-color: #F56E51;
+	height:50px;
+	width:355px;
+	display: inline-block;
+	padding-top: 10px;
+	padding-left:120px;
+}
+
+.category:hover{
+		background-color:#C70039;
+}
+
+.product-wrapper{
+	margin-top:50px;
+	height:430px;
+	width:210px;
+	display: inline-block;
+	background-color:#F5D551;
+	text-align:center;
+}
+.product-grid_img{
+	padding:20px;
+	height: 200px;
+	width: 125px;
+}
+
+.product-grid_img_2{
+	padding:20px;
+	height: 200px;
+	width: 160px;
+}
+
+.product-grid_img_3{
+	padding:20px;
+	height: 200px;
+	width: 150px;
+}
+
+a {
+	color:black;
+	padding:20px;
+	transform: translateY(-50%);
+	text-decoration: none;
+
+}
+
+a:hover{
+	color:white;
+}
